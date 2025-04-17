@@ -25,10 +25,25 @@
    color: #fff;
    text-decoration: none;
    font-size: 30px;
-
+ 
   }
 
+  .links a:hover{
+  
+    text-decoration: none;
+    text-shadow: 0 0 1px #fff, 0 0 5px #fff, 0 0 4px #9500ff, 0 0 4px #9500ff, 0 0 4px #9500ff, 0 0 4px #9500ff , 0 0 4px #9500ff, 0 0 4px #9500ff;
+   }
+
+   
 .stack{
     display: flex;
     gap: 10px;
+    
+}
+
+.stack div{
+  background-color: rgb(48, 24, 77);
+  opacity: .9;
+  padding: 8px 8px 8px 8px;
+  border-radius: 50%;
 }
